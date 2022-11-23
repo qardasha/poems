@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Naskh Arabic';
+	color: white;
+	display: flex;
+}
+
+#header-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    padding-right: 15px;
+}
+
+#header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: pre-wrap;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+button {
+	border: none;
+	outline: none;
+    font-family: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#poem-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.poet-button, .poem-button {
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+	padding: 15px;
+	width: 100%;
+}
+
+.poem-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.poem-button > *:nth-child(2) {
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+}
+
+.lang-button {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+
+.poet-button:hover, .poem-button:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+#sidebar {
+	background-color: black;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#poet-list, #poet-profile {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#poet-photo-name-bio-div {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+}
+
+#top-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+#poet-photo-name-div {
+	display: flex;
+    justify-content: center;
+	gap: 15px;
+}
+
+#poet-name {
+	display: flex;
+    align-items: center;
+}
+
+#poet-photo, .menu-poet-photo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+#poet-bio {
+	color: darkgrey;
+}
+
+hr {
+    opacity: 10%;
+}
+
+#open-button {
+	width: 10px;
+	height: 100vh;
+}
+
+#change-background-button {
+	padding: 15px;
+	background-color: white;
+}
+
+.closed {
+	animation: 0.3s closeSidebar;
+	animation-fill-mode: forwards;
+}
+
+.opened {
+	animation: 0.3s openSidebar;
+	animation-fill-mode: forwards;
+}
+
+@keyframes closeSidebar {
+	0% { width: 30%; }
+	100% {
+		width: 0%;
+	}
+}
+
+@keyframes openSidebar {
+	0% { width: 0%; }
+	100% { width: 30%; }
+}
+
+#background {
+	width: 100%;
+	height: 100vh;
+	white-space: pre-wrap;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+    background-color: black;
+    background-size: cover;
+}
+
+#show-menu-button {
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+}
+
+#show-menu-button > img {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#content-div {
+    overflow-y: auto;
+    width: 550px;
+    max-height: 80%;
+    background-color: black;
+	border-radius: 5px;
+    border: 1px solid rgb(20, 20, 20);
+    padding: 30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+    gap: 20px;
+}
+
+#title {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#text {
+	font-size: 100%;
+}
+
+#poem-poet-name {
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+}
+
+#poem-count {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(49, 49, 49);
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}

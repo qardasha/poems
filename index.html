@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto Nastaliq Urdu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Naskh Arabic' rel='stylesheet'>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<div id="sidebar" class="opened">
+            <div id="poet-list">
+                <div id="header-logo-div">
+                    <img id="logo" src="https://cdn.discordapp.com/attachments/1013935918144573576/1013961037738938398/unknown.png">
+                    <h1 id="header">Qardashan
+Poetry Archive</h1>
+                </div>
+            </div>
+            <div id="poet-profile" style="display: none">
+                <div id="poet-photo-name-bio-div">
+                    <div id="top-div">
+                        <button id="show-menu-button" onclick="ShowMenu()">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAAAD////e3t7j4+Pb29umpqbw8PCXl5csLCz5+fkQEBAWFhZiYmKfn59aWlqcnJyRkZEICAiLi4vo6OhqamocHByGhoYUFBSAgIBTU1NCQkJKSkpxcXFoaGjt7e0+Pj7KysqwsLAlJSU1NTV4eHi+vr6tra03NzfU1NQuLi4uNX0gAAAEW0lEQVR4nO3di1LiQBAF0B5dIiiiqICC4vv1/z/oo2prWTNAJrk4t29yP8DKqe4wMZl0zIAZIv8YY+7CNPch7DZvIWgT98JXznIfxs4y2Q9Bmtj/CwzhNPex7CT98xCkie9FWM1B7uOBZ/4/UI+4+AlUI84HJaAWcRHxSRFHsQoqEdcCVYijtT4R4sUmoALxejMwhJPcR9gwW4HeiRWAvolPVYCeiRWBfomVWtQz8bI60OeiMU0BeqziWRrQHzEZ6I14mg70RTyoA/RErAn0QzypC/RCPK4P9LEu9poAPRAbAvmJL02B7EQAkJt4jwAyE0FAXiIMyEp8xgFJiUukkPIR6mx/+3EnhPFZ/wRLZKzikT6xBVWc7OkT9as4O99+3M6Jh/pVPMKei4zrIriKjETwukhJxDYq45Zb8LrIWMUWXIbPWlBFfSJ40WD8uQETL3N7IhljG5WRCF40WtCojMQWXN3M/kCJjOcieF1kJHaLRmqecnsiOWxBo7agithzkZKIXTQYiUf6xLF+o4IXjevcnkjG2EalJLagii0g6jcq+J8pRiL4Au4itycSMPEmtycWbKMyEsHXqIyNavrnInjRYBzM1AIi+D4q488N+Fk/YxXB6yIjEfzYhpGIvT010CeGUW5PJC0ggjdrMjYqeLMmZRWxxKvcnkj6+ufiA7SKA0pieZZbEyJjo2KryHkuQt+ZoqxiX79RH7HERW5PJLdQYtAnUjZqdD5mfSJjFUtDXPWIC/0qXiGFoWAkbpyTmZzBPLcnEiwxMBJvoELKRk2Y1OeVeA8l7uXmlINt0+Vrbk8pQyiw4ANeYRf9x9yeUrBXNQUfEHvxvbzN7Skl8nmBBin4gK/Y/y0IgdhzkA+IvVNT8F2RPmJvKPIBwbcT+YDYG/uEl9t97MMZPiD4uQUhEPsjQwjEtijfrWDsM2D5ChI+O5yoPznE7qchfIYPnmJDWEH17UJYIOHexAf1PW3gPcJ8LSq/zxs8LYNvrz74ZQTCCqq3KHjzM997T+DXEPiA8q9Ygjev81UQvA7yveoMPgf5gOB1kA8Inm9CCFQfpgR+NZYQKF9B9cF04DlRfEDwHAVCoHqLgi+2+aaYygPBywQfUH6WMPiuGiEQu0zwAeU/ySL/WR39D3l0wKTwtSh4LhvfVy3B/9F3wN8PFsj3zfXxmzjQsMCuRX8/XYsm5Tg3p5wO2AHJgXcdsAOupJebU4488LkDOgdaTx0IJXICgURWIIzICzR7UQdCiNxAQKOyAxsT+YENiR6AjYg+gGYndYEvuY+8cmoS/QDNDtSBtYi+gGan6sBkopdf0dVMU4CEN50q5FIdmED0CqxM9AusOKrT44/Mv1Qgeq7gV7YSvQPNLtSBW4YfKwDNhuvHBWoAP6u4jqgCXDtrXQe4ZrasEvCziuWxgVrASBXVgGa3A3Hgj8+sKALN5ktx4MogXcLNeKBMCukKfuV7FKsy8JuoDTR7J3zzxewDNM5eLLDiMr0AAAAASUVORK5CYII=">
+                        </button>
+                        <div id="poet-photo-name-div">
+                            <img id="poet-photo">
+                            <h4 id="poet-name"></h4>
+                        </div>
+                    </div>
+                    <p id="poet-bio"></p>
+                </div>
+                <hr>
+                <div id="poem-list"></div>
+                <button id="change-background-button" onclick="ChangeBackground()"></button>
+            </div>
+		</div>
+		<button id="open-button" onclick="SidebarToggle()"></button>
+		<section id="background">
+            <div id="content-div">
+                <div id="content">
+                    <div id="title"></div>
+                    <div id="text"></div>
+                    <div id="poem-poet-name"></div>
+                </div>
+            </div>
+            <div id="languages"></div>
+		</section>
+        <script src="data.js"></script>
+        <script src="function.js"></script>
+	</body>
+</html>
+</body>
+</html>

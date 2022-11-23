@@ -90,6 +90,14 @@ function LoadPoem(poem, index, poet) {
     title.innerHTML = poem.titles[index];
     text.innerHTML = poem.texts[index];
     poem_poet_name.innerHTML = "– " + poet.name;
+    if (poem.languages[index] == "qr") {
+        title.style.fontFamily = "Noto Nastaliq Urdu";
+        text.style.fontFamily = "Noto Nastaliq Urdu";
+    }
+    else {
+        title.style.fontFamily = "Noto Naskh Arabic";
+        text.style.fontFamily = "Noto Naskh Arabic";
+    }
     ChangeBackground();
 }
 

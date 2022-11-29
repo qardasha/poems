@@ -19,6 +19,200 @@ let orzan = new Poet(
 		bio: "Sultan of the Great Sultanate of Qardasha",
 		poems: [
             {
+                titles: ["কি ভালো নেই?", "What is not good?"],
+                texts: [
+`কি ভালো নেই?
+আমি বলি কি ভালো নেই,
+আমার মন ভালো নেই, আমার জীবন ভালো নেই, আমার চা, আমার মা, আমার বাপ--
+আমার পরিবার, এই দুনিয়া। 
+আমার ভাইরা, আমার বোনরা, এই গরম পানি--
+গরম পানি? জি। এই চা তা চা নেই, এই চা তা গরম পানি 💔 
+
+আমার চা ঠান্ডা 😭 
+হে খোদা, কেন এই সমস্যা আমাকে দিসেন?!
+যখন ওরা বলে "কেমন আসেন"
+আমি চুপ থাকি।`,
+`What is not good?
+Let me say what is not good,
+My mind is not good, my life is not good, my tea, my mother, my father--
+My family, this world.
+My brothers, my sisters, this hot water--
+Hot water? Yes. This tea is not tea, this tea is hot water 💔 
+
+My tea is cold 😭
+Oh God, why have you given me this problem?!
+When they ask "how are you"
+I stay silent.`
+                ],
+                languages: ["bn", "en"]
+            },
+	    {
+                titles: ["Mon Thé Adoré", "My Beloved Tea"],
+                texts: [
+`Mon amour... mon thé adoré,
+Hop! Hop! Hop! J'aime tu, Je t'aime, j'aime manger
+tu. Je veux nager...
+Je veux nager en toi--
+
+mon thé adoré! mon thé adoré!`,
+`My love... My beloved tea,
+Hey! Hey! Hey! I love you, I like you, I like eating
+you. I want to swim...
+I want to swim in you--
+
+My beloved tea! My beloved tea!`
+                ],
+                languages: ["fr", "en"]
+            },
+	    {
+                titles: ["Bismişah Allah", "In the name of the King and God"],
+                texts: [
+`Ya RasulAllah,
+Ya Fatih Sultan,
+Bismişah Allah,
+Ey ibn Muhammad Padişah,
+Hayde Ya Allah,
+Ey yiğit sultan,
+La ilaha ilallah,
+Bismişah Hayde Ya Allah!
+
+Ya rasulallah,
+Ya nabi allah,
+Ey Orzan Padişah,
+Ey yiğit shahanshah--
+Bismişah Hayde Ya Allah!`,
+`Oh Messenger of God,
+Oh conquering sultan,
+In the name of the king and God,
+Oh son of Muhammad king,
+Forward in the name of God,
+Oh brave Sultan,
+There is no god but god,
+Forward in the name of the king and God!
+
+Oh Messenger of God,
+Oh Prophet of God,
+Oh King Orzan,
+Oh Brave King of Kings,
+Forward in the name of the king and god!`
+                ],
+                languages: ["tr", "en"]
+            },
+	    {
+                titles: ["The Saddest Thing Ever"],
+                texts: [
+`The Saddest
+thing
+Ever,
+is when your
+Chai
+gets cold 💔`
+                ],
+                languages: ["en"]
+            },
+            {
+                titles: ["Intoxication"],
+                texts: [
+`Sharap; a drop of heavenly wine, makes me feel alive again.
+What has been said, has been said.
+A beautiful taste--even if I was dead--
+I would rise up just to adorn the taste again.
+
+I write in a drunken state,
+We will all meet our fates,
+A single drop and I am hooked, no more games--no more "check mate,"
+I can no longer bear the wait--I am longing just for another taste...
+
+I am blind but I can clearly see,
+For it is not my eyes but rather my heart, for I have not yet set it free,
+A drop of heavenly wine teaches me what it means to be,
+Am I wrong to allow my pen to sing?
+
+This wine of mine is not a drink,
+This sharap is the wine of love--love for he,
+He who has created me,
+He who as allowed me to be--he who has allowed me to be Munshi...`
+                ],
+                languages: ["en"]
+            },
+	                {
+                titles: ["ইসলাম জিনদাবাদ", "Islam Zindabad (a Shayari)"],
+                texts: [
+`রোমানস্, পার্সিয়ান, রাশিয়ানরা, মুশরিকরা, আর এখন আমেরিকা...
+সবের বড় দেশ, আমরা শক্তিশালী,
+আরবিয়া, আফ্রিকা, তুরস্ক, বলকান, পারস্য, হিন্দুস্তান, আর আরো ইনশাআল্লাহ...
+সবাই ভই পাই, ইসলাম জিনদাবাদ, আমরা শক্তিশালী!`,
+`Romans, Persians, Russians, Polytheists, and now America...
+All the big nations, we are strong,
+Arabia, Africa, Turkey, the Balkans, Persia, Hindustan, and others InshaAllah...
+Everyone is scared, long live Islam, we are strong!`
+                ],
+                languages: ["bn", "en"]
+            },
+                        {
+                titles: ["من حژتم عرزن", "I am Orzan (Patriotic Song)"],
+                texts: [
+`من حژتم عرزن، پاديشاة،
+يهك قارداشى، ناميے سلطان ى سلطان،
+عرزن الشاة عظيم،
+بى الله، الرحمن الرحيم،
+من حژتم شاة.
+
+من حژتم عرزن، شاة جحن و عبد المليك عظم، الشاة عظم، سلطان پى قاردايشا، سلطان بى الإكسرا، روپية، اردسطان، امير المسليمنى پى العرب. إبن محمد-إبن منشى، الحكيم، من حژتم امير السيف، الخليد پى الغرب.`,
+`I Am Orzan, High King,
+A Qardaishan, granted the name of 'Sultan of Sultans,'
+Orzan the great king,
+By Allah, the Most Merciful, the Most Gracious,
+I am king.
+
+I am Orzan, Shah-Jahan (king of the world) and servant of the true king [Allah - saying that my title is Shah-Jahan but that title only belongs to Allah the true king], the powerful and great king, Sultan of Qardasha, Sultan of Exrio, Ropia, Urdistan, Commander of the Muslims of the West. Son of Muhammad-Grand Son of Munshi the wise, I am the commander of the sword, Khalid of the west.`
+                ],
+                languages: ["qr", "en"]
+            },
+	                {
+                titles: ["হূ... ইলাহূ...", "Hu.... Ilahu..."],
+                texts: [
+`হূ... ইলাহূ...
+ইয়া এলাহী, ইয়া এলাহী, হূ হূ হূ!
+যদি আমি তোমার মাওলা, তাইলে আলীও (রা) তোমার মাওলা!
+হূ হূ হূ হূ হূ... ইলাহূ.. ইয়া রাসূল, ইয়া জান আগা!
+হূ হূ হূ হূ হূ...ইলাহূ...`,
+`hu.... ilahu...
+Oh, my God, Oh, my God, hu hu hu!
+If I am your master then Ali is your master too!
+Hu! Hu! Hu! Hu... Ilahu... O messenger, O beloved sir!
+Hu hu hu hu hu.... Ilahu...`
+                ],
+                languages: ["bn", "en"]
+            },
+            {
+                titles: ["It Is you I need alone, you"],
+                texts: [
+`Every Majnun needs his Layla, every Romeo his Juliet.
+They say that love completes the soul, but every sun must set. 
+A drop of heavenly wine falls from my lips, my lips, ever so wet,
+What has been done, has been done, who has been killed, is dead.
+What has been said, has been said, whoever reads, has read.
+What has been written, has been written, we all have a fate that is to be met.
+
+Every ‘good thing’ must come to an end, even the moon must set,
+What has been done, is done, and who has been killed, is dead. 
+
+My mind is clouded, by this sip of heavenly wine,
+You of all people should know I am not fine,
+Can you accept that everyone must die?
+Are you even trying to make it by?
+
+It is you I need alone, you.
+I have seen what there is to see, I have seen the proofs,
+I have heard what there is hear, I have heard the proofs,
+It is you I need alone, you.
+Only you are the one who is able to help me through and through,
+It is you I need alone, you.`
+                ],
+                languages: ["en"]
+            },
+            {
                 titles: ["الپآنا ى زينديگى", "The Good Of Life"],
                 texts: [
 `تو پآناإيے من زينديگى،
@@ -1615,6 +1809,46 @@ let nafiz = new Poet(
         photo: "https://cdn.discordapp.com/avatars/798325508613603348/309a80bb5ad62c6c460d5de15823a5e9.png?size=4096",
         bio: "",
         poems: [
+	    {
+                titles: ["সময়", "Time (A Shayari)"],
+                texts: [
+`সময় বদলে যায়
+মানুষ পাল্টে যায়
+শুধু  বদলেনা আল্লাহর মহব্বত
+তাকে মনে রাখ,
+এবং তিনি আপনাকে মনে রাখবেন।`,
+`Times change
+People change
+Only Allah's love does not change
+Remember him,
+And He will remember you.`
+                ],
+                languages: ["bn", "en"]
+            },
+	    {
+                titles: ["The Warrior (Başı-e Azam  بشى عظم)"],
+                texts: [
+`Ruling Qardasha before Başı-e Azam was found
+It was rough, but Yawm-e Azadi was around
+The day where a new warrior was made
+A new Ghazi opened his eyes 
+This Ghazi was the warrior of struggles and pain
+Although, He never raised his voice in this claim
+He worked hard, He worked day and night
+To defend Qardasha with all his might!
+
+The day when Qardaishan history was made
+Is the same day, a warrior was displayed
+He perceived, He conveyed 
+His father shaded him on the days with no shade
+His father made him the Jewel of the Crown
+Now, that Jewel shines from every wall of Qardasha's town.
+The Highest of the High, The savior of Qardasha
+The shield from the shields of Orzan 
+That's why He's called The Başı-e Azam.`
+                ],
+                languages: ["en"]
+            },
             {
                 titles: ["To Qardasha"],
                 texts: [
@@ -1867,6 +2101,59 @@ let mahmoud = new Poet(
 		photo: "https://media.discordapp.net/attachments/1041716359354134650/1044520931273490533/4906956E-5B95-4F71-A1EC-F818DC2CFFE8.png",
 		bio: "Qardaishan poet, programmer and noble",
 		poems: [
+			{
+                titles: ["Your Onion Breath"],
+                texts: [
+`My eyes have begun to tear up from your onion breath
+Detestible, unacceptable, and at times, radical
+And I cannot tell which feeling is worse:
+The stinging sensation in my eyes,
+Or the foul smell of your spouting mouth
+Why when I tell you it hurts, you eat more onions
+Am I that hateful to you,
+Or are you hateful to yourself?
+Don’t you realise?
+You are willing to make your breath smell so foul
+And let your tongue go in flames
+And your nose flare up in pain
+And consume a food that, by itself, too much is not what is wished for on one’s plate
+Can you see me, and the glass that I look through? Or are your eyes burning just like mine?
+My eyes continue to tear up from your onion breath
+Perhaps if I close my eyes, that feeling will go away
+Perhaps if I close my eyes, that foul-smelling onion breath will fade away`
+                ],
+                languages: ["en"]
+            		},
+			{
+                titles: ["يا حسرات على قوم جاهلين", "Oh Regrets Upon The Ignorant People"],
+                texts: [
+`يا حسرات على قوم جاهلين
+غرسوا في وسخ وقذارة مدنسين
+في جهل على جهل لا بقعة بلاه
+ولا تحسبونهم يا قراء كافرين
+يا حسرات إنهم قوم مسلمون
+ما أتاهم معلمون فوقعوا
+اسألوا أحدهم ما معنى الإسلام يخطئ
+اسألوه أتنقض أكل الجمل الوضوء لا يعرف
+اسألوه أأنت أعلم أم العالم يكذب
+ايتوه بآية وسنة لماذا يجادل
+آتوه من نور لا يبالي ولا يريد أن يقتبس
+آتوه من عبث فإذا يريد أن يخالط`,
+`Oh regrets on the ignorant people
+Planted within dirt and dirt, dirty
+In ignorance upon ignorance, no spot without it
+And don’t think, O Readers, that they are disbelievers
+Oh regrets, they are Muslim!
+Never did teachers come to them so they fell
+Ask one of them “what is the meaning of Islam”, he makes a mistake
+Ask one of them “does eating camel break Wudu”, he does not know
+Ask him “are you more knowledgeable or the scholar”, he lies
+Come to him with a Ayah or a Sunnah, he argues
+Give him from light, he doesn’t care nor does he want to take from it
+Give him from something useless, suddenly he wants to mingle`
+                ],
+                languages: ["ar", "en"]
+            		},
 			{
 				titles: ["اليوم يوم الأزادي", "Today is the day of Azadi"],
 				texts: [
@@ -2343,6 +2630,16 @@ And also wondering if this will be my death place
 I only want my home back.`
                 ],
                 languages: ["eo", "en"]
+            },
+	    {
+                titles: ["Estas Ni (Qardashi Version)"],
+                texts: [
+`Ali ma Ali ma nuus e la tawa pona
+Ali ma Ali ma nuus e la nageh
+E nuus kehn nuus e la tawa pona
+E nuus kehn nuus e la tawa pona.`
+                ],
+                languages: ["qr"]
             },
             {
                 titles: ["Estas Ni", "Estas Ni"],
